@@ -130,6 +130,7 @@ func AddKnownTypesGroup(scheme *runtime.Scheme, g schema.GroupVersion) error {
 		&TemplateGroup{},
 		&TemplateGroupList{},
 		&RoutingTree{},
+		&RoutingTreeList{},
 	)
 	metav1.AddToGroupVersion(scheme, g)
 
